@@ -1,0 +1,147 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.list-style-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.name-comment-container {
+  display: flex;
+}
+.name-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #7e858e;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.name-time-container {
+  display: flex;
+  align-items: center;
+  min-width: 200px;
+}
+.name-style {
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 700;
+  color: #1e293b;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .name-style {
+    font-size: 35px;
+  }
+}
+.time-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #94a3b8;
+}
+@media screen and (min-width: 768px) {
+  .time-style {
+    font-size: 22px;
+  }
+}
+.comment-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #7e858e;
+}
+@media screen and (min-width: 768px) {
+  .comment-style {
+    font-size: 22px;
+  }
+}
+.like-delete-container {
+  display: flex;
+  justify-content: space-between;
+}
+.like-image-style {
+  height: 25px;
+  width: 30px;
+  margin-right: 18px;
+  margin-top: 10px;
+}
+@media screen and (min-width: 768px) {
+  .like-image-style {
+    height: 35px;
+    width: 35px;
+  }
+}
+.like-button-style {
+  background-color: transparent;
+  border: none;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+}
+.like-button-style1 {
+  color: #7e858e;
+}
+.like-button-style2 {
+  color: #0ea5e9;
+}
+@media screen and (min-width: 768px) {
+  .like-button-style {
+    font-size: 22px;
+  }
+}
+.button-style1 {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+.delete-button-style {
+  height: 30px;
+  width: 30px;
+}
+@media screen and (min-width: 768px) {
+  .delete-button-style {
+    height: 40px;
+    width: 40px;
+  }
+}
+.hor-style {
+  border: 1px solid #7e858e;
+}

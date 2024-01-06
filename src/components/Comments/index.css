@@ -1,0 +1,131 @@
+/* Write your CSS here */
+.comment-main-container {
+  min-height: 100vh;
+  padding: 15px;
+}
+.comment-sub-container {
+  padding: 20px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .comment-sub-container {
+    min-width: 1100px;
+  }
+}
+.comment-heading-style {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 600;
+  color: #1e293b;
+}
+@media screen and (min-width: 768px) {
+  .comment-heading-style {
+    font-size: 55px;
+  }
+}
+.image-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .image-input-container {
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 1000px;
+  }
+}
+.image-style {
+  width: 100%;
+  order: 0;
+}
+@media screen and (min-width: 768px) {
+  .image-style {
+    width: 400px;
+    order: 1;
+  }
+}
+.technology-container {
+  order: 1;
+}
+@media screen and (min-width: 768px) {
+  .technology-container {
+    order: 0;
+  }
+}
+
+.technology-style {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 600;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .technology-style {
+    font-size: 32px;
+  }
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.input-style {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #7e858e;
+  margin-bottom: 20px;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+}
+.textarea-style {
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #7e858e;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 600;
+  color: #1e293b;
+  outline: none;
+}
+.button-style {
+  height: 40px;
+  width: 150px;
+  background-color: #0284c7;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #cbd2d9;
+  border-width: 0px;
+  border-radius: 5px;
+}
+.hr-style {
+  border: 1px solid #7e858e;
+}
+
+.comment-paragraph-style {
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 500;
+  color: #334155;
+}
+.span-style {
+  background-color: #0ea5e9;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.list-container {
+  padding-left: 0px;
+}
